@@ -78,7 +78,7 @@ function renderOrder(o) {
   document.getElementById("customerBox").innerHTML = `
     <div><b>${o.customer?.name || ""}</b></div>
     <div>${o.customer?.phone || ""}</div>
-    <div class="muted">${o.customer?.address || ""}</div>
+    <div class="muted">${o.customer?.address || ""}</div>    <div class="muted">${o.customer?.pincode || ""}</div>
   `;
 
   // ===== PAYMENT LOGIC (🔥 FIXED) =====
